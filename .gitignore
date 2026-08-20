@@ -1,5 +1,16 @@
-# Environment variables
+# API keys / secrets
 .env
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
 
 # Generated feature data
 data/gold/features_5min.csv
@@ -8,3 +19,15 @@ data/spy/features_5min.csv
 
 data/*/features_5min.csv
 data/*/features_5min_labeled.csv
+
+# model artifacts (large, regenerable from training notebooks)
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+saved_models/
+checkpoints/
+
+# OS
+.DS_Store
