@@ -1,5 +1,7 @@
+# Environment variables
 .env
 
+# Generated feature data
 data/gold/features_5min.csv
 data/eurusd/features_5min.csv
 data/spy/features_5min.csv
